@@ -413,7 +413,7 @@ main {
 }
 
 .articles-left-wrapper {
-    width: 95%;
+    width: 60%;
     height: fit-content;
     border-top: solid black 1px;
     display: flex;
@@ -474,3 +474,26 @@ main {
     padding-right: 0px
 }
 
+#bottom-right {
+    width: 27.5vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+#right-wrapper {
+    width: 60%;
+    height: 00px;
+    border-top: solid black 1px;
+}
+
+.side-headline-bottom {
+    border-top: 1px solid rgb(204, 204, 204);
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    padding: 15px 5px 15px 5px;
+    
+}
