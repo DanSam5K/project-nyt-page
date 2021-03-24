@@ -219,7 +219,7 @@ main {
     width: 160px;
     margin: 10px 0 10px 0;
     height: 1px;
-    background-color: rgb(204, 204, 204);
+    background-color: #000;
     color: #000;
 }
 
@@ -233,4 +233,102 @@ main {
     display: flex;
     flex-direction: row;
     margin: 7px 0 7px 0;
+}
+
+#inflation-container {
+    width: 946px;
+    position: relative;
+}
+
+#inflation-title {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+#inflation-subtitle {
+    font-family: 'Domine', serif;
+    font-size: 13px;
+    color: #666;
+    line-height: 20px;
+}
+
+#inflation-img {
+    width: 946px;
+    margin-top: 20px;
+}
+
+.inflation-item {
+    position: absolute;
+    width: 228px;
+    font-size: 13px;
+    font-family:  Arial, sans-serif;
+    line-height: 17px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top: 70px;
+}
+
+.item-bottom {
+    margin-top: 0;
+}
+
+#inflation-item-1 {
+    top: 21.8264%;
+    left: 0.0436%;
+}
+
+#inflation-item-2 {
+    top: 21.8264%;
+    left: 25.5619%;
+}
+
+#inflation-item-3 {
+    top: 21.8264%;
+    left: 51.0800%;
+}
+
+#inflation-item-4 {
+    top: 21.8264%;
+    left: 76.5982%;
+}
+
+#inflation-item-5 {
+    top: 71.4375%;
+    left: 0.0436%;
+}
+
+#inflation-item-6 {
+    top: 71.4375%;
+    left: 25.5619%;
+}
+
+#inflation-item-7 {
+    top: 71.4375%;
+    left: 51.0800%;
+}
+
+#inflation-item-8 {
+    top: 71.4375%;
+    left: 76.5982%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inflation-line-divider {
+    width: 72px;
+    background-color: #000;
+    margin: 40px 0 20px 0;
+    height: 1px;
+    color: #000;
+}
+
+#inflation-author {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
 }
