@@ -78,3 +78,53 @@ nav {
     margin: 5px;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+h1 {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    width: 600px;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    padding: 70px 0 20px 0;
+    color: #121212;
+    border-bottom: solid 1px rgb(224, 222, 222) ;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 600px;
+    
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 600px;
+    
+}
+
+
+.social-icons .icons {
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    width: 15px;
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
