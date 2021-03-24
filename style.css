@@ -56,7 +56,7 @@ nav {
     margin-right: 25px;
  }
 
-.nav-right .activity-button {
+.activity-button {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -379,4 +379,20 @@ main {
     width: 330px;
     height: 35px;
     font-size: 13px;
+}
+
+#down-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+#down-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70vw;
+    width: fit-content;
 }
