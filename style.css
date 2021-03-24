@@ -168,7 +168,7 @@ h1 {
 }
 
 article {
-    width: 50%;
+    width:70%;
     margin-top: 40px;
     color: #333;
 }
@@ -186,10 +186,16 @@ article {
 }
 
 p {
+    display: flex;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.875rem;
     margin: 0 0 15px 0;
+    min-width: 30vw;
+    width: 50vw;
+    align-content: center;
+    padding-left: 20px;
+    
 }
 
 main {
@@ -213,6 +219,14 @@ main {
     display: flex;
     flex-direction: row;
     margin: 7px 0 7px 0;
+    width: 40vw
+}
+
+.editors-near {
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0 7px 0;
+    width: 20vw;
 }
 
 .editors-line-divider{
@@ -233,6 +247,7 @@ main {
     display: flex;
     flex-direction: row;
     margin: 7px 0 7px 0;
+    width: 30%;
 }
 
 #inflation-container {
@@ -276,43 +291,43 @@ main {
 }
 
 #inflation-item-1 {
-    top: 21.8264%;
-    left: 0.0436%;
+    top: 22%;
+    left: 0.05%;
 }
 
 #inflation-item-2 {
-    top: 21.8264%;
-    left: 25.5619%;
+    top: 22%;
+    left: 26%;
 }
 
 #inflation-item-3 {
-    top: 21.8264%;
-    left: 51.0800%;
+    top: 22%;
+    left: 51%;
 }
 
 #inflation-item-4 {
-    top: 21.8264%;
-    left: 76.5982%;
+    top: 31.5%;
+    left: 77%;
 }
 
 #inflation-item-5 {
-    top: 71.4375%;
-    left: 0.0436%;
+    top: 71%;
+    left: 0.05%;
 }
 
 #inflation-item-6 {
-    top: 71.4375%;
-    left: 25.5619%;
+    top: 71%;
+    left: 26%;
 }
 
 #inflation-item-7 {
-    top: 71.4375%;
-    left: 51.0800%;
+    top: 71%;
+    left: 51%;
 }
 
 #inflation-item-8 {
-    top: 71.4375%;
-    left: 76.5982%;
+    top: 71%;
+    left: 77%;
 }
 
 .bold {
@@ -331,4 +346,37 @@ main {
     font-size: 13px;
     font-family: Arial, sans-serif;
     margin-bottom: 30px;
+}
+
+.video-container {
+    margin: 50px 0 60px 0;
+    width: 616px;
+    height: 346.5px;
+}
+
+.article-video {
+    width: 100%;
+    height: 100%;
+}
+
+.main-image-container {
+    margin: 30px 0 30px 0;
+
+}
+
+.main-image {
+    width: 100%;
+}
+
+.disclaimer {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin: 20px 0 10px 0;
+    color: #666; 
+}
+
+#comment-info {
+    width: 330px;
+    height: 35px;
+    font-size: 13px;
 }
