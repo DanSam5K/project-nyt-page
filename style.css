@@ -161,6 +161,9 @@ h1 {
 .span {
     font-size: 13px;
     color: #888;
+}
+
+.bold {
     font-weight: bold;
 }
 
@@ -194,4 +197,40 @@ main {
     flex-direction: column;
     width: 100vw;
     align-items: center;
+}
+
+.editors-picks {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 1700px;
+    right: 40px;
+}
+
+.editors-article {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0 7px 0;
+}
+
+.editors-line-divider{
+    width: 160px;
+    margin: 10px 0 10px 0;
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+    color: #000;
+}
+
+.editors-img {
+    width: 75px;
+    height: 75px;
+    margin: 0;
+}
+
+.editors-text {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0 7px 0;
 }
