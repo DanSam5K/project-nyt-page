@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    border-bottom: solid 1px rgb(224, 222, 222) ;
+    align-items: center;
+    height: 42px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 8%) 0 0 5px 1px;
+    z-index: 100; 
+    margin: 0; 
+    padding: 2px;
+}
+
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    z-index: 1000;
+ }
+
+.nav-center {
+    display: flex;
+    align-items: center;    
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+ }
+
