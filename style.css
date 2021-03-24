@@ -397,6 +397,21 @@ main {
     width: fit-content;
 }
 
+#bottom-articles-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+#bottom-articles-left {
+    width: 66.5vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .articles-left-wrapper {
     width: 95%;
     height: fit-content;
