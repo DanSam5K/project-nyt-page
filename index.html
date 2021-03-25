@@ -295,14 +295,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+    
     <footer>
         <hr class="footer-hr">
         <div class="footer-nav">
-            <a href="https://www.nytimes.com/" class="logo">
+            <div class="link-to-nyt">
+                <a href="https://www.nytimes.com/" class="logo">
                 <img alt="The New York Times" src="assets/images/nytlogo.png" class="logo">
-            </a>
-            <a href="https://www.nytimes.com/"" class='footer-link-small'>Go to Home Page »</a>
+                </a>
+            </div>
             <div class="list-container">
                 <div class="bold">News</div>
                 <ul>
@@ -389,23 +391,14 @@
             </div>
             <div class="list-container footer-col-special">
                 <div class="bold">Subscribe</div>
-                <ul>
-                    <li class='li-special'>
-                        <ion-icon name="newspaper-outline"></ion-icon>
-                        <span>Home Delivery</span>
-                    </li>
-                    <li class='li-special'>
-                        <ion-icon name="game-controller-outline"></ion-icon>
-                        <span>Games</span>
-                    </li>
-                    <li class="list-special">
-                        <i class="fas fa-utensils"></i>
-                        <span>Cooking</span>
-                    </li>
+                <ul class="list-large">
+                    <li class="list-small">Home Delivery</li>
+                    <li class="list-small">Games</li>
+                    <li class="list-small">Cooking</li>
                     <li class="list-small">Email Newsletters</li>
                     <li class="list-small">Corporate Subscriptions</li>
                     <li class="list-small">Education Rate</li>
-                    <hr>
+                    <div><hr></div>
                     <li class="list-small">Mobile Applications</li>
                     <li class="list-small">Replica Edition</li>
                     <li class="list-small">International</li>
@@ -414,9 +407,10 @@
                     <li class="list-small">中文网</li>
                 </ul>
             </div>
+            <hr class="footer-hr">
             <div class="footer-info">
                 <div>© 2021 The New York Times Company</div>
-                <ul>
+                <ul class="footer-info">
                     <li>NYTCo</li>
                     <li>Contact Us</li>
                     <li>Work with us</li>
