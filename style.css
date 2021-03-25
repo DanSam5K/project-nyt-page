@@ -193,9 +193,8 @@ p {
     margin: 0 0 15px 0;
     min-width: 30vw;
     width: 50vw;
-    align-content: center;
-    padding-left: 20px;
-    
+    align-items: center;
+    padding-left: 10%;
 }
 
 main {
@@ -203,51 +202,6 @@ main {
     flex-direction: column;
     width: 100vw;
     align-items: center;
-}
-
-.editors-picks {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    position:absolute;
-    top: 1700px;
-    right: 40px;
-}
-
-.editors-article {
-    display: flex;
-    flex-direction: row;
-    margin: 7px 0 7px 0;
-    width: 40vw
-}
-
-.editors-near {
-    display: flex;
-    flex-direction: column;
-    margin: 7px 0 7px 0;
-    width: 20vw;
-}
-
-.editors-line-divider{
-    width: 160px;
-    margin: 10px 0 10px 0;
-    height: 1px;
-    background-color: #000;
-    color: #000;
-}
-
-.editors-img {
-    width: 75px;
-    height: 75px;
-    margin: 0;
-}
-
-.editors-text {
-    display: flex;
-    flex-direction: row;
-    margin: 7px 0 7px 0;
-    width: 30%;
 }
 
 #inflation-container {
@@ -330,10 +284,6 @@ main {
     left: 77%;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .inflation-line-divider {
     width: 72px;
     background-color: #000;
@@ -352,6 +302,7 @@ main {
     margin: 50px 0 60px 0;
     width: 616px;
     height: 346.5px;
+    padding-left: 10%;
 }
 
 .article-video {
@@ -397,13 +348,6 @@ main {
     width: fit-content;
 }
 
-#bottom-articles-wrapper {
-    display: flex;
-    flex-direction: row;
-    height: fit-content;
-    flex-wrap: wrap;
-}
-
 #bottom-articles-left {
     width: 66.5vw;
     height: fit-content;
@@ -412,8 +356,15 @@ main {
     flex-direction: column;
 }
 
+#bottom-articles-right {
+    width: 27.5vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
 .articles-left-wrapper {
-    width: 60%;
+    width: 80%;
     height: fit-content;
     border-top: solid black 1px;
     display: flex;
@@ -421,6 +372,16 @@ main {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-bottom: 20px;
+}
+
+.article-left-item {
+    border: 1px solid rgb(204, 204, 204);
+    height: 300px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px
 }
 
 .articles-heading {
@@ -433,15 +394,59 @@ main {
     justify-content: space-between;
 }
 
-.left-photo-item {
-    height: fit-content;
-    padding: 5px 0 30px 0;
-    width: 31%;
-    margin-right: 15px;
+.last-article-item {
+    margin-right: 0;
 }
 
 .left-photo-img {
     width: 100%
+}
+
+.article-item-header{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.sub-article-image{
+    width: 90px;
+}
+
+.add-article {
+    width: 35px;
+    height: 35px;
+}
+
+.article-left-text {
+    padding: 0 12px 0 12px;
+    line-height: 19px;
+}
+
+.article-item-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article-item-description{
+    color: #666;
+    height: 120px;
+}
+
+.article-right-headline {
+    border-top: 1px solid rgb(204, 204, 204);
+    font-family: 'Domine', serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    padding: 15px 5px 15px 5px;
+}
+
+.see-latest {
+    color: #326891;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .photo-item-text-wrap {
@@ -468,6 +473,17 @@ main {
     font-size: 12px;
 }
 
+.left-photo-item {
+    height: fit-content;
+    padding: 5px 0 30px 0;
+    width: 31%;
+    margin-right: 15px;
+}
+
+.left-photo-img{
+    width: 100%
+}
+
 .last-photo-item {
     border: 0;
     margin-right: 0px;
@@ -484,16 +500,36 @@ main {
 
 #right-wrapper {
     width: 60%;
-    height: 00px;
+    height: 300px;
     border-top: solid black 1px;
+    display: flex;
+    flex-direction: column;
 }
 
-.side-headline-bottom {
-    border-top: 1px solid rgb(204, 204, 204);
-    font-family: 'Domine', serif;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 22px;
-    padding: 15px 5px 15px 5px;
-    
+#bottom-articles-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    flex-wrap: wrap;
 }
+
+#bottom-articles-left {
+    width: 66.5vw;
+    height: fit-content;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid gray;
+    flex-direction: row;
+}
+
+
