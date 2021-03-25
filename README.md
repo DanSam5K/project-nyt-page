@@ -1,4 +1,4 @@
-# NYT-wk1
+# Project NYT Page
 Microverse HTML and CSS Week 1 Project
     This project is centered on understanding of HTML & CSS. 
     For the Week 1 project is mainly to practice positioning and floating elements of elements with both languages.
