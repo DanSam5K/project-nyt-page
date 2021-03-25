@@ -1,20 +1,61 @@
-# New York Times Article Copy
-**ALL CONTENT IS COPYRIGHT THE NEW YORK TIMES.**
+# NYT-wk1
+Microverse HTML and CSS Week 1 Project
+    This project is centered on understanding of HTML & CSS. 
+    For the Week 1 project is mainly to practice positioning and floating elements of elements with both languages.
 
-Copy of NYT article in order to practice positioning with HTML/CSS. No JS used
+![ScreenShot](assets/images/week1-project.PNG)
 
-> I may add JS In Future to further demostrate mastering of web development and sharpen my skills it in future.
+## Built With
 
-In order To improve on: the Project
-so as to Increase responsiveness to make it match original article
-[Click to view main page NYT](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+- HTML
+- CSS
+    
+## Linters Used:
 
-### Languages used
-1. HTML
-2. CSS
-3. Mark Down
+- Lighthouse
+- Weblint
+- Stylelint
+    
+## Live Demo
 
-###
-- In addiition I also used linters for HTML and CSS to set-up the project so as to adhere to requirements
-- I also follow Github work flow technic
+- Project [Live Demo Link](https://dansam5k.github.io/project-nyt-page/)
+    
+## Getting Started
 
+- To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Have a compatible web browser that supports HTML5 and CSS3 in order to correctly display the website.
+- A text editor in order to view and edit code. Popular text editors include VSCode and Notepad++.
+
+
+### Setup
+
+On GitHub bash 
+    _git clone https://github.com/DanSam5K/project-nyt-page.git_
+
+### Usage
+
+- Most Operative Systems have the .html file extension associated to open with your default web browser.
+> In order to review the code, you may use your web browser inspect element option or open directly with a text editor.
+
+- In the cloned folder access open
+    _index.html_
+
+
+## 👤 Daniel Samuel
+
+- GitHub: [DanSam5K](https://github.com/DanSam5K)
+- Twitter: [@_dan_sam](https://twitter.com/_dan_sam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dansamuel/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+Show your support
+
+Give a ⭐️ if you like this project!
+Acknowledgments
