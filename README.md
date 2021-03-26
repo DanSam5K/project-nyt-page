@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 # Project NYT Page
 Microverse HTML and CSS Week 1 Project
     This project is centered on understanding of HTML & CSS. 
