@@ -306,11 +306,11 @@ main {
 }
 
 #special-container {
-    align-items: center;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    width: 70vw;
-    margin-left: 30px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 70vw;
+  margin-left: 30px;
 }
 
 #main-item-1 {
@@ -326,12 +326,6 @@ main {
 }
 
 #main-item-2 {
-  height: 5%;
-  float: right;
-  margin-left: 10px;
-}
-
-#main-item-2 {
   height: 100%;
   width: 20vw;
   float: right;
@@ -340,7 +334,7 @@ main {
   margin-left: 80px;
 }
 
-.item-1 {
+.sub-item-1 {
   border-bottom: 2px solid black;
   display: flex;
   width: 100%;
@@ -349,42 +343,26 @@ main {
 
 }
 
-.item-2 {
+.sub-item {
   display: flex;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-}
-
-.item-3 {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-}
-
-.item-4 {
-  display: flex;
-  width: 90%;
   align-items: center;
   justify-content: center;
   margin-top: 0;
 }
 
 .ref-anchor {
-    text-decoration: none;
-    color: #000;
-} 
+  text-decoration: none;
+  color: #000;
+}
 
 .div-image > img {
-    color: black;
-    margin: 0;
-    height: 100px;
-    border: none;
-    float: left;
-    padding-right: 5px;
+  color: black;
+  margin: 0;
+  height: 100px;
+  border: none;
+  float: left;
+  padding-right: 5px;
 }
 
 .main-image-container {
