@@ -345,6 +345,7 @@ main {
   width: 27.5vw;
   display: flex;
   justify-content: center;
+  height: 50vh;
 }
 
 #articles-right-wrapper {
@@ -353,7 +354,7 @@ main {
   border-bottom: solid 1px #121212;
   margin-bottom: 0;
   padding-bottom: 0;
-  height: 250vh;
+  height: 150vh;
 }
 
 .articles-left-wrapper {
@@ -586,4 +587,86 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   color: #666;
   cursor: pointer;
+}
+
+#special-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 70vw;
+    margin-left: 30px;
+}
+
+#main-item-1 {
+  height: 100%;
+  float: left;
+}
+
+#main-item-1 > p {
+  height: 100%;
+  float: left;
+  width: 50vw;
+  margin-top: 0;
+}
+
+#main-item-2 {
+  height: 5%;
+  float: right;
+  margin-left: 10px;
+}
+
+#main-item-2 {
+  height: 100%;
+  width: 20vw;
+  float: right;
+  display: grid;
+  padding-left: 50px;
+  margin-left: 80px;
+}
+
+.item-1 {
+  border-bottom: 2px solid black;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item-2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.item-3 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.item-4 {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.ref-anchor {
+    text-decoration: none;
+    color: #000;
+} 
+
+.div-image > img {
+    color: black;
+    margin: 0;
+    height: 100px;
+    border: none;
+    float: left;
+    padding-right: 5px;
 }
